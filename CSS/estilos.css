@@ -1,0 +1,333 @@
+@font-face{
+    font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    margin: 0%;
+    padding: 0;
+}
+
+/*INdexx*/
+
+.contenedor .fondo{
+    
+    width: 90%;
+    height: 90vh;
+    filter: blur(90px);
+    position: absolute;
+    z-index: -999;
+    
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    height: 90vh;
+    margin: 20px auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(22rem,1fr));
+}
+
+
+
+.contenido{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido h1{
+    font-weight: bold;
+    animation-duration: 3s;
+}
+
+.contenido h4{
+    font-weight: lighter;
+    letter-spacing: 2px;
+    animation-duration: 5s;
+}
+
+
+.contenedor .principal{
+   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.buttom {
+    background-color: #000D65;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+    margin-top: 5vh;
+    transition: all 1s;
+}
+
+.buttom:hover{
+    transform: translate(5px);
+    background-color: white;
+    color: #000D65;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+
+
+/*SOBRE MI*/
+
+
+.presentacion{
+    /*height: 120vh;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem,1fr));
+    text-align: center;   
+    margin: 5vh;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.descripcion{
+  
+    color: #000D65;
+    
+    text-align: center;
+    align-self: center;
+    margin: 5vh;
+
+
+   
+}
+
+.descripcion h1{
+    
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.descripcion h3{
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: 2vh;
+   
+}
+
+.descripcion p{
+    font-size: 15px;
+    font-weight: lighter;
+    color: black;
+    margin-top: 5vh;
+    text-align: justify;
+    line-height: 5vh;
+    display: flex;
+    
+    
+    
+}
+
+
+
+
+
+
+/*
+.foto-sobremi{
+   
+    
+    height: auto;
+    width: auto;
+    border: solid 2px #000D65;
+    
+   
+    
+}
+*/
+.contenedor-logo{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    background-color: #000D65;
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.logo{
+    height: 25vh;
+    width: 50vh;
+    display: grid;
+    grid-column: 4/6;
+    padding-top: 75px;
+    padding-left: 100px;
+    
+   }
+
+
+/*Patologias*/
+
+.container .text-start{
+    background-color: #000D65;
+    color: white;
+}
+
+.card{
+   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2) ;
+   cursor: default;
+   transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.f-piedepagina{
+    
+    margin-bottom: 0;
+    margin-top: 5vh;
+    padding: 1%;
+    align-items: center;
+    background-color: #000D65;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    justify-content: center;
+    align-content: center; 
+    text-align: center;
+    ;
+}
+
+
+
+/*PDM*/
+
+.container-fluid{
+    margin: 0;
+    background-color: #000D65;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+/*PDM*/
+
+.pdm{
+    color: #000D65;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 3rem;
+
+}
+
+
+.text-pdm{
+    margin: 2rem;
+    text-align: center;
+    padding: 3rem;
+    line-height: 2rem;
+
+}
+
+
+/*CONTACTO*/
+
+
+
+
+.contacto{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem,1fr));
+    text-align: center;   
+    gap: 2rem;
+    
+}
+
+.contacto div{
+    display: inline-block;
+    
+
+}
+
+.comunicate{
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    
+    
+}
+
+.comunicate h2{
+    font-weight: bold;
+    color: #000D65;
+}
+
+.contacto img{
+    width:5rem ; 
+    height: 5rem; 
+    margin-bottom: 2rem;  
+}
+
+.contenedor-logofinal{
+    display: grid;
+    grid-template-columns: (auto-fill, minmax(15rem,1fr));
+    background-color: #000D65;
+    height: 40vh;
+    width: 100%;
+    margin-top: 20vh;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.logo__final{
+    height: 15vh;
+    width: 30vh;
+    
+}
+
+.f-piedepaginas{
+    margin-bottom: 0;
+  
+    padding: 1%;
+    align-items: center;
+    background-color: #000D65;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    justify-content: center;
+    align-content: center; 
+    text-align: center;
+    ;
+
+
+}
